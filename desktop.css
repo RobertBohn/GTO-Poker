@@ -1,0 +1,65 @@
+
+/* Global CSS */
+body {
+    font-family: arial, verdana, sans-serif;
+    color:#000000;
+    margin:0;
+    padding:0;
+}
+h1 {
+    font-size:14pt;
+}
+h2 {
+    font-size:18pt;
+}
+p {
+    font-size:12pt;
+}
+a {
+    color:#000000;
+    text-decoration:none;
+}
+a:hover {
+    color:#484848;
+}
+
+#action {
+  margin-top: 20px; /* Offsets the table down by 10px */
+  margin-left: 10px; /* Offsets the table right by 10px (shifts it away from the left edge) */
+}
+#seat-table {
+  border-collapse: collapse; /* Ensures borders are shared between cells for a clean grid look */
+  margin-top: 10px; /* Offsets the table down by 10px */
+  margin-left: 10px; /* Offsets the table right by 10px (shifts it away from the left edge) */
+}
+#seat-table td {
+  border: 1px solid #000; /* Full border on all sides of each cell (black, 1px thick) */
+  padding: 5px; /* 6 pixels of padding inside each cell */
+  text-align: center; /* Optional: left-align content */
+  vertical-align: middle; /* Optional: align content to the middle */
+}
+#card-table {
+  border-collapse: collapse; /* Ensures borders are shared between cells for a clean grid look */
+  margin-top: 20px; /* Offsets the table down by 10px */
+  margin-left: 10px; /* Offsets the table right by 10px (shifts it away from the left edge) */
+}
+#card-table td {
+  border: 1px solid #000; /* Full border on all sides of each cell (black, 1px thick) */
+  padding: 5px; /* 6 pixels of padding inside each cell */
+  text-align: center; /* Optional: left-align content */
+  vertical-align: middle; /* Optional: align content to the middle */
+}
+
+.pair {
+  background-color: #2ba9fb; /* Light blue background */
+}
+.suited {
+  background-color: #fbb32b; /* Light red background */
+}
+.offsuit {
+  background-color: #a1fb2b; /* Light green background */
+}
+
+
+
+
