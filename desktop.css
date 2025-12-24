@@ -49,6 +49,29 @@ a:hover {
   text-align: center; /* Optional: left-align content */
   vertical-align: middle; /* Optional: align content to the middle */
 }
+#situation-table {
+  border-collapse: collapse; /* Ensures borders are shared between cells for a clean grid look */
+  margin-top: 20px; /* Offsets the table down by 10px */
+  margin-left: 10px; /* Offsets the table right by 10px (shifts it away from the left edge) */
+}
+#situation-table td {
+  border: 1px solid #000; /* Full border on all sides of each cell (black, 1px thick) */
+  padding: 5px; /* 6 pixels of padding inside each cell */
+  text-align: left; /* Optional: left-align content */
+  vertical-align: middle; /* Optional: align content to the middle */
+}
+
+#seat-table:hover {
+  cursor: pointer;
+} 
+#card-table:hover {
+  cursor: pointer;
+} 
+#situation-table:hover {
+  cursor: pointer;
+} 
+
+
 
 .pair {
   background-color: #2ba9fb; /* Light blue background */
